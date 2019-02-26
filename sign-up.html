@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/share.css"/>
+    <link rel="stylesheet" href="css/sign.css"/>
+</head>
+<body>
+<header>
+    <div class="w">Bootstrap Admin Theme</div>
+</header>
+<main id="main1">
+    <div class="login">
+        <h2>SIGN UP</h2>
+        <input type="text" placeholder="email--">
+        <input type="password" placeholder="password"/>
+        <input type="password" placeholder="confirm Password">
+        <input id="log" type="button" value="Login"/>
+    </div>
+</main>
+<div id="sign">
+    <div><span>Don't have an account yet?</span><a href="#"> Sign Up</a> </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		$("#log").click(function(){
+			$(window).attr('location','Dashboard.html');
+		});
+	}
+</script>

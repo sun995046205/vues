@@ -1,0 +1,73 @@
+#section{
+    margin-bottom: 30px;
+    padding:20px;
+    width:83%
+}
+#section>ul{
+    padding:20px;
+    background: #fff;
+    overflow: hidden;
+}
+#section>ul>.l{
+    width:18%;
+}
+#section>ul>li{
+    padding:15px;
+}
+#section .l{
+    border:1px solid #aaaaaa;
+    background: #ddd;
+}
+#section .l>h3{
+    padding-top:16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#section .l>ul>li{
+    margin: 10px 0;
+    background: #3366CC;
+    font-size: .85em;
+    color: #fff;
+    padding:4px 2px;
+    width:100%;
+}
+#section .l>div{
+    font-size:11px;
+    margin:16px 0;
+    padding: 1px;
+}
+#section .l>div>span{
+    display: inline-block;
+    margin:5px;
+    font-weight: bold;
+
+}
+#section .r{
+    width:82%;
+    padding:0 20px;
+
+}
+
+@media screen and (min-width:1150px){
+}
+
+@media screen and (min-width:970px) and (max-width:1150px){
+    #main{clear:both;width:100%}
+    #section{clear: both;width: 100%;}
+
+}
+
+@media screen and (min-width:650px) and (max-width:980px){
+    #main{clear:both;width:100%}
+    #section{clear: both;width: 100%;}
+    #section .l{display: none}
+    #section .r{width:100%}
+}
+
+@media screen and (max-width:650px){
+    #main{clear:both;width:100%}
+    #section .l{display: none}
+    #section .r{width:100%}
+
+}

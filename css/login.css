@@ -1,0 +1,101 @@
+header{
+    height:50px;
+    line-height: 50px;
+    width:100%;
+    background: #000;
+    color:#fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#main1 .login{
+    height:400px;
+    width:380px;
+    padding:30px 35px;
+    margin:0 auto;
+    box-shadow: 1px 1px 2px;
+    text-align: center;
+}
+
+#main1 .login h2{
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#main1 .login .login-ff{
+    cursor: pointer;
+    border: 1px solid #3B4868;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    height: 37px;
+    line-height: 37px;
+    overflow: hidden;
+    width: 99%;
+    text-decoration: none !important;
+    background: linear-gradient(to bottom, #6887c4 0%,#4566a9 100%)
+}
+#main1 .login .login-ff>span:nth-child(1){
+    background-color: #39599F;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    height: 37px;
+    text-align: center;
+    width: 51px;
+}
+#main1 .login .login-ff>span:nth-child(1) img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main1 .login p{
+    display: inline-block;
+    margin: 17px 0 23px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#main1 .login input{
+    font-size: 15px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-color: #b2bfc7;
+    padding-left: 12px;
+    width: 100%;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+#main1 .login input:nth-last-child(1){
+    display:inline-block;
+    width:100px;
+    height:50px;
+    padding: 0px;
+    line-height: 50px;
+    background: #00c3ff;
+    margin:20px 0;
+}
+
+
+#sign{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+@media screen and (min-width:1150px){
+}
+
+@media screen and (min-width:970px) and (max-width:1150px){
+    #main1 .login{width:720px;}
+}
+
+@media screen and (min-width:650px) and (max-width:980px){
+    #main1 .login{width:720px;}
+
+}
+
+@media screen and (max-width:650px){
+    #main1 .login{width:100%;}
+
+}

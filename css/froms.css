@@ -1,0 +1,457 @@
+
+#section{
+    width: 83.4%;
+}
+
+#section li{
+    width:50%;
+    padding:0 15px;
+    margin-bottom: 30px;
+}
+#section li>div{
+    padding:20px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+#section li .title{
+    min-height: 40px;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+}
+#section li .title .l{
+    padding-left: 20px;
+}
+#section li .title .r{
+    padding-right: 15px;
+}
+#section li .content{
+    padding:15px;
+}
+#section li .content>ul>li{
+    margin-bottom: 15px;
+    width:100%;
+    overflow: hidden;
+}
+
+#section li .content li>span{
+    display: inline-block;
+    padding:7px 15px 0;
+    width:18%;
+    font-size: 12px;
+    font-weight: 600;
+}
+#section li .content li>.text{
+    width:82%;
+    padding:0 15px;
+}
+#section li .content li>.text>.textarea{
+     display: block;
+     width: 100%;
+     height: 34px;
+     padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.428571429;
+     color: #555;
+     vertical-align: middle;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+#section li .content li>.text>span{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#section li .content li>div>input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#section li .content li>.check{
+    margin-left: 18%;
+    padding:0 15px
+}
+#section li .content li>.check>span{
+    display: block;
+    padding-top:7px;
+}
+#section li .content li>.check>.check-btn{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    height: 32px;
+    width:70px;
+    cursor: pointer;
+
+}
+#section li:nth-child(2) .content li>span{
+    padding:7px 15px 0;
+    width:100%;
+    margin-bottom: 5px;
+
+}
+#section li:nth-child(2) .content li>.text{
+    width:100%
+}
+#section li:nth-child(2) .content li>.check{
+    margin-left: 0px;
+}
+#section li:nth-child(3)>div{
+    padding:0;
+    overflow: hidden;
+}
+#section li:nth-child(3) .title{
+    background: #f5f5f5;
+}
+#section li:nth-child(3) .content input{
+    height: 34px;
+    width:25%;
+    margin:0 15px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+#section li:nth-child(3) .content input:nth-child(4){
+    width:60px;
+}
+#section li:nth-child(3) .content .cont-box{
+    display: inline-block;
+    line-height: 34px;
+}
+#section li:nth-child(3) .content .cont-box>input{
+    width:15px;
+    margin:0px;
+}
+#section li:nth-child(3) .content>input:nth-child(4){
+    background: #00c3ff;
+}
+#section li:nth-child(4)>div{
+    padding:0;
+    overflow: hidden;
+}
+#section li:nth-child(4) .title{
+    background: #fcf8e3;;
+}
+#section li:nth-child(4) .content input{
+    height: 34px;
+    width:25%;
+    margin:0 15px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    cursor: not-allowed;
+}
+#section li:nth-child(4) .content input:nth-child(4){
+    width:60px;
+}
+#section li:nth-child(4) .content .cont-box{
+    display: inline-block;
+    line-height: 34px;
+}
+#section li:nth-child(4) .content .cont-box>input{
+    width:15px;
+    margin:0px;
+}
+#section li:nth-child(4) .content>input:nth-child(4){
+    background: #d9edf7;
+}
+#section li:nth-child(5){
+    width:100%;
+}
+
+#section li:nth-child(5)>div{
+    padding:0;
+    overflow: hidden;
+}
+#section li:nth-child(5) .title{
+    background: #f5f5f5;
+}
+
+#section li:nth-child(5) .content>ul>li>span{
+    display: inline-block;
+    padding:0 15px;
+    width:100%;
+}
+#section li:nth-child(5) .content>ul>li input{
+     padding:6px 12px;
+     font-size: 14px;
+     border-radius: 5px;
+     border:1px solid #ccc;
+        width:100%;
+
+}
+
+#section li:nth-child(5) .content>ul>li:nth-child(3) span{
+    width:50%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(5) span{
+    width:25%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(5) span:nth-child(3){
+    width:50%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(7) span{
+    width:25%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(7) span:nth-child(1){
+    width:50%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(9) span{
+    width:33.33%
+}
+#section li:nth-child(5) .content>ul>li:nth-child(11) span{
+    width:16.66%
+}
+#section li:nth-child(6) .content>ul>li span{
+    display: inline-block;
+    padding:0 15px;
+    width:100%;
+}
+#section li:nth-child(6) .content>ul>li input{
+    padding:6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    width:100%;
+
+}
+#section li:nth-child(6) .content>ul>li:nth-child(1) span{
+    width:20%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(3) span{
+    width:25%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(5) span{
+    width:30%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(7) span{
+    width:35%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(9) span{
+    width:40%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(11) span{
+    width:45%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(13) span{
+    width:50%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(15) span{
+    width:55%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(17) span{
+    width:60%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(19) span{
+    width:65%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(21) span{
+    width:70%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(23) span{
+    width:75%
+}
+#section li:nth-child(6) .content>ul>li:nth-child(25) span{
+    width:80%
+}
+#section li:nth-child(7) .content>ul>li span{
+    display: inline-block;
+    padding:0 15px;
+    width:100%;
+}
+#section li:nth-child(7) .content>ul>li input{
+    padding:6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    width:100%;
+
+}
+#section li:nth-child(7) .content>ul>li:nth-child(1) span{
+    width:20%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(3) span{
+    width:25%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(5) span{
+    width:30%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(7) span{
+    width:35%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(9) span{
+    width:40%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(11) span{
+    width:45%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(13) span{
+    width:50%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(15) span{
+    width:55%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(17) span{
+    width:60%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(19) span{
+    width:65%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(21) span{
+    width:70%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(23) span{
+    width:75%
+}
+#section li:nth-child(7) .content>ul>li:nth-child(25) span{
+    width:80%
+}
+#section li:nth-child(8){
+    width:100%;
+}
+#section li:nth-child(8)>div{
+    overflow: hidden;
+}
+#section li:nth-child(8)>div>.content>ul:nth-child(1){
+    margin-bottom: 20px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+#section li:nth-child(8)>div>.content>ul>li{
+    width:80px;
+    padding:0;
+    background: #ddd;
+    margin-left: 4px;
+    border-radius: 6px;
+    text-align: center;
+}
+#section li:nth-child(8)>div>.content>ul>li:nth-child(1){
+    background: #428bca
+ }
+
+#section li:nth-child(8)>div>.content>ul>li>a{
+    display: inline-block;
+    padding:10px 15px;
+}
+
+#section li:nth-child(8)>div>.content .content-one li{
+    margin-bottom: 15px;
+    overflow: hidden;
+    width:100%;
+}
+#section li:nth-child(8)>div>.content .content-one li>span{
+    width:18%;
+    text-align: right;
+}
+#section li:nth-child(8)>div>.content>.content-f{
+    margin:20px 0;
+    overflow: hidden;
+    width:100%
+}
+#section li:nth-child(8)>div>.content>.content-f>div{
+    border-radius: 15px;
+    border:1px solid #ccc;
+    padding:5px 14px;
+    text-align: center;
+}
+#section li:nth-child(8) .content .content-two{
+    overflow: hidden;
+    display: none;
+}
+#section li:nth-child(8) .content .content-two input{
+    height: 34px;
+    width:25%;
+    margin:0 15px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+#section li:nth-child(8) .content .content-two .cont-box{
+    display: inline-block;
+    line-height: 34px;
+}
+#section li:nth-child(8) .content .content-two .cont-box>input{
+    width:15px;
+    margin:0px;
+}
+#section li:nth-child(8) .content .content-two>input:nth-child(4){
+    background: #428bca;
+    width:15%;
+}
+#section li:nth-child(8) .content .content-three{
+    overflow: hidden;
+    display: none;
+}
+
+
+#section li:nth-child(8) .content .content-three h2{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+#section li:nth-child(8) .content .content-three>.three-1{
+    width:100%;
+    overflow: hidden;
+}
+#section li:nth-child(8) .content .content-three>.three-1>div:nth-child(1){
+    width:18%;
+    font-size: 12px;
+    font-weight: 600;
+    padding:0 15px;
+}
+#section li:nth-child(8) .content .content-three>.three-1>div:nth-child(2){
+    width:82%;
+    font-size: 12px;
+    padding:0 15px;
+}
+#section li:nth-child(8) .content .content-three>.three-1>div:nth-child(2) input{
+    margin:10px;
+
+}
+#section li:nth-child(8) .content .content-three>.three-1>div:nth-child(2) span{
+    display: inline-block;
+    padding-left: 10px;
+}
+@media screen and (min-width:1150px){
+}
+
+@media screen and (min-width:970px) and (max-width:1150px){
+    #section{width: 100%;}
+    #section .section-bag > li {width: 100%; }
+    #main{clear:both;width:100%}
+}
+
+@media screen and (min-width:650px) and (max-width:980px){
+    #section{width: 100%;}
+    #section .section-bag > li {width: 100%; }
+}
+
+@media screen and (max-width:650px){
+    #section{width: 100%;}
+    #section .section-bag > li {width: 100%; }
+}

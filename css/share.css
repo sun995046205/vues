@@ -1,0 +1,163 @@
+#header{
+    height:50px;
+    line-height: 50px;
+    background: #090b22;
+    background-size: cover;
+    color:#ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#header::after{
+    content: "";
+    height:0;
+    clear: both;
+    display: block;
+}
+
+#header h1{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:41%;
+    display: inline-block;
+}
+#header .seach{
+    display: inline-block;
+    width:41%;
+    text-align: center;
+    padding:0 15px;
+}
+
+#header .seach>input{
+    height:34px;
+    display: inline;
+    width:230px;
+    border-radius: 4px;
+    border:1px #ffffff solid;
+    padding-left: 10px;
+}
+#header .seach .btn{
+    display: inline-block;
+    position: relative;
+}
+#header .seach .btn input{
+    position: absolute;
+    height:34px;
+    display: inline;
+    width:70px;
+    top:-21px;
+    left: -7px;
+    background:#00c3ff;
+    border: #00c3ff 1px solid;
+    border-radius: 4px;
+}
+#header .r{
+    padding:0 15px;
+    position: relative;
+}
+
+#header .r p{
+    color:#aaaaaa;
+    padding: 0 15px;
+}
+#header .r .log{
+    display: inline-block;
+    min-width: 160px;
+    border-radius: 6px;
+    border:1px solid #aaaaaa;
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    top:55px;
+    left:-30px;
+    background: #fff;
+}
+#header .r .log p:nth-child(1){
+    border-bottom: 1px solid #aaaaaa;
+}
+#main{
+    padding:0 15px;
+    width: 16.6%;
+}
+#main>div{
+    padding:10px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+#main>div li{font-size: 16px;
+    border-bottom: #ddd 1px solid;
+}
+#main>div li:last-child{
+    border:0;
+}
+#main>div li a{
+    display: block;
+    padding:15px 15px;
+    line-height: 20px;
+}
+#main>div li:last-child .r{
+    display: inline-block;
+    height:0;
+    width: 0;
+    margin-top:7px;
+    border-top:#aaaaaa 4px solid;
+    border-left:#fff 4px solid;
+    border-right:#fff 4px solid;
+}
+
+
+#main>div li:last-child .main-list{
+    display: none;
+}
+#main>div li:last-child .main-list a{
+    display:block;
+    padding:8px 10px 8px 40px;
+    color: #ccc;
+}
+
+
+
+#footer{
+    color:#fff;
+    background: #090b22;
+    padding:10px 0;
+    text-align: center;
+}
+#footer div{
+    padding:15px 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+}
+/*这是一个空盒子*/
+#clear-box{overflow: hidden;clear: both;height:0}
+
+
+@media screen and (min-width:1150px){
+    .w{width:1170px; margin:0 auto}
+}
+
+@media screen and (min-width:970px) and (max-width:1150px){
+    .w{width:970px; margin:0 auto}
+}
+
+@media screen and (min-width:650px) and (max-width:980px){
+    #header{background: #090b22; height:auto; padding:15px 0}
+    #header h1{clear:both;  width:100%; padding:15px 0}
+    #header .seach{clear:both; width:100%; padding:15px 0}
+    #header .r{display: none}
+    #main{clear:both;width:100%}
+
+}
+
+@media screen and (max-width:650px){
+    #header{background: #090b22; height:auto; padding:15px 0;}
+    #header h1,.seach{clear:both;  width:100%;}
+    #header .seach{clear:both; width:100%;}
+    #header .r{display: none}
+    #main{clear:both;width:100%}
+
+}

@@ -1,0 +1,106 @@
+#section{
+    width: 83.4%;
+    padding:0 15px;
+}
+#section li{
+    width:50%;
+    padding:0 15px;
+}
+#section li:nth-last-child(1){
+    width:100%;
+}
+#section li:nth-last-child(2){
+    width:100%;
+}
+#section li>div{
+    background: #fff;
+    padding:20px;
+    margin-bottom: 30px;
+}
+#section li .title{
+    min-height: 40px;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+}
+#section li .title .l{
+    padding-left: 20px;
+}
+#section li .title .r{
+    padding-right: 15px;
+}
+
+
+#section .tab{
+    padding:15px;
+}
+#section .tab table{
+    border-collapse:collapse;
+}
+#section .tab td{
+    padding:8px;
+}
+#section .tab th{
+    padding:8px;
+    width:31%
+}
+#section li thead tr{
+    border-bottom:2px solid #ccc;
+}
+#section li tbody tr{
+    border-top:1px solid #ccc;
+}
+#section li:nth-child(2) tbody tr:nth-child(2n-1){
+    background: #f9f9f9;
+}
+
+#section li:nth-child(6) tbody tr:nth-child(1){
+    background: #dff0d8;
+}
+#section li:nth-child(6) tbody tr:nth-child(2){
+    background: #f2dede;
+}
+#section li:nth-child(6) tbody tr:nth-child(3){
+    background: #fcf8e3;
+}
+#section li:nth-last-child(1)>.big-tab .list-lis{
+    position: relative;
+    padding:20px
+}
+#section li:nth-last-child(1)>.big-tab .list-num select{
+    position: absolute;
+    border:1px solid #00c3ff;
+    background: #fff;
+    width:100px;
+    height:30px
+}
+#section li:nth-last-child(1)>.big-tab .list-lis span{
+    display: inline-block;
+    position: absolute;
+    left:130px;
+
+}
+
+
+#section .tab:nth-last-child(1){
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:1150px){
+}
+
+@media screen and (min-width:970px) and (max-width:1150px){
+
+}
+
+@media screen and (min-width:650px) and (max-width:980px){
+    #section{ width:100%; }
+    #section li{ width:100%; }
+}
+
+@media screen and (max-width:650px){
+    #section{ width:100%; }
+    #section li{ width:100%; }
+}

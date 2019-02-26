@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Statistics (Charts)</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/share.css"/>
+    <link rel="stylesheet" href="css/charts.css"/>
+</head>
+<body>
+<header id="header">
+    <div  class="w">
+        <h1 class="l">Bootstrap Admin Theme</h1>
+        <div class="seach l">
+            <input type="text" placeholder="Seach...">
+            <span class="btn"><input type="button" value="Seach"></span>
+        </div>
+        <div class="r">
+            <details>
+                <summary class="r btn1">My Account </summary>
+            </details>
+            <div class="log">
+                <p><a href="www.baidu.com">Profile</a></p>
+                <p><a href="login.html">Logout</a></p>
+            </div>
+        </div>
+    </div>
+</header>
+<main id="main" class="l">
+    <div>
+        <ul>
+            <li><a href="Dashboard.html"><span><i class="iconfont">&#xe67c;</i></span> Dashboard</a></li>
+            <li><a href="Calendar.html"><span><i class="iconfont">&#xe6c7;</i></span> Calendar</a></li>
+            <li><a href="#"><span><i class="iconfont">&#xe641;</i></span> Statistics (Charts)</a></li>
+            <li><a href="tables.html"><span><i class="iconfont">&#xe628;</i></span> Tables</a></li>
+            <li><a href="buttons.html"><span><i class="iconfont">&#xe6af;</i></span> Buttons</a></li>
+            <li><a href="Editors.html"><span><i class="iconfont">&#xe610;</i></span> Editors</a></li>
+            <li><a href="Forms.html"><span><i class="iconfont">&#xe61c;</i></span> Forms</a></li>
+            <li class="login">
+                <a><span><i class="iconfont">&#xe605;</i></span> Pages<span class="r btn2n"></span></a>
+
+
+                <div class="main-list">
+                    <a href="login.html">Login</a>
+                    <a href="sign-up.html">Signup</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</main>
+<section id="section" class="l">
+        <ul>
+            <li>
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab">
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab1">
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div>
+                        <div class="l" id="tab-1"></div>
+                        <div class="l" id="tab-2"></div>
+                        <div class="l" id="tab-3"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab2">
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab3">
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab4">
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <div>
+                    <div class="title">
+                        <span class="l">New vs Returning Visitors</span>
+                        <span class="r">
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                        <a href="#"><i class="iconfont">&#xe61c;</i></a>
+                    </span>
+                    </div>
+                    <div id="tab5">
+                    </div>
+                </div>
+            </li>
+        </ul>
+</section>
+
+<div id="clear-box"></div>
+<footer id="footer">
+    <div class="w">
+        <span>Copyright 2014 </span>
+        <a href="#">Website</a>
+    </div>
+</footer>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script type="text/javascript" src="js/stats.js"></script>
+<script>
+    $(function(){
+        $(".btn1").click(function(){
+            $(".log").toggle(function(){
+                $(this).attr("display","flex");
+            },function(){
+                $(this).attr("display","none");
+            })
+        })
+        $(".login").click(function(){
+            $(".main-list").toggle(function(){
+                $(this).attr("display","BLOCK");
+            },function(){
+                $(this).attr("display","none");
+            })
+        });
+        var option = {
+            tooltip : {
+                trigger: 'axis',
+                axisPointer: {
+                    label: {
+                        backgroundColor: '#f60'
+                    }
+                }
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : ['2012-04','2012-02','2011-12','2011-10','2011-08','2011-06','2011-04','2011-02','2010-12','2010-10','2010-08','2010-06','2010-04']
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value'
+                }
+            ],
+            series : [
+                {
+                    name:'邮件营销',
+                    type:'line',
+                    stack: '总量',
+                    areaStyle: {},
+                    data:[120, 132, 101, 134, 90, 230, 210,212,233,521,315,214,215]
+                },
+                {
+                    name:'联盟广告',
+                    type:'line',
+                    stack: '总量',
+                    areaStyle: {},
+                    data:[220, 182, 191, 234, 290, 330, 310,354,388,369,399,458,455]
+                },
+                {
+                    name:'搜索引擎',
+                    type:'line',
+                    stack: '总量',
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'top'
+                        }
+                    },
+                    areaStyle: {normal: {}},
+                    data:[820, 932, 901, 934, 1290, 1330, 1320,1235,1534,1568,1222,1313,1111]
+                }
+            ]
+        };
+        var option1 = {
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['2012-09','2013-04', ' 2013-03','2013-02','2013-01','2012-12','2012-11','2012-10', '2012-09']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+
+                {
+                    name:'视频广告',
+                    type:'line',
+                    stack: '总量',
+                    data:[150, 232, 201, 154, 190, 330, 410,555,541,521]
+                },
+                {
+                    name:'直接访问',
+                    type:'line',
+                    stack: '总量',
+                    data:[320, 332, 301, 334, 390, 330, 320,354,333,321]
+                },
+                {
+                    name:'搜索引擎',
+                    type:'line',
+                    stack: '总量',
+                    data:[820, 932, 901, 934, 1290, 1330, 1320,1285,1251,1521]
+                }
+            ]
+        };
+        var option2 = {
+            color: ['#3398DB'],
+            tooltip : {
+                trigger: 'axis',
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    data : ['1', '3G', '3GS', '4', '4S', '5'],
+                    axisTick: {
+                        alignWithLabel: true
+                    }
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value'
+                }
+            ],
+            series : [
+                {
+                    name:'直接访问',
+                    type:'bar',
+                    barWidth: '60%',
+                    data:[10, 52, 200, 334, 390, 330]
+                }
+            ]
+        };
+        var option3 = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b}: {c} ({d}%)"
+            },
+            series: [
+                {
+                    name:'访问来源',
+                    type:'pie',
+                    radius: ['50%', '70%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: false,
+                            position: 'center'
+                        },
+                        emphasis: {
+                            show: true,
+                            textStyle: {
+                                fontSize: '30',
+                                fontWeight: 'bold'
+                            }
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: false
+                        }
+                    },
+                    data:[
+                        {value:335, name:'直接访问'},
+                        {value:310, name:'邮件营销'},
+                        {value:234, name:'联盟广告'},
+                        {value:135, name:'视频广告'},
+                        {value:1548, name:'搜索引擎'}
+                    ]
+                }
+            ]
+        };
+        var option4 = {
+            tooltip : {
+                trigger: 'item'
+            },
+            series : [
+                {
+                    name: '访问来源',
+                    type: 'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:335, name:'直接访问'},
+                        {value:310, name:'邮件营销'},
+                        {value:234, name:'联盟广告'},
+                        {value:135, name:'视频广告'},
+                        {value:1548, name:'搜索引擎'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        var dataCount = 5e5;
+        var data = generateData(dataCount);
+
+        var option5 = {
+            title: {
+                text: echarts.format.addCommas(dataCount) + ' Data',
+                left: 10
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: false
+                    },
+                    saveAsImage: {
+                        pixelRatio: 2
+                    }
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            grid: {
+                bottom: 90
+            },
+            dataZoom: [{
+                type: 'inside'
+            }, {
+                type: 'slider'
+            }],
+            xAxis: {
+                data: data.categoryData,
+                silent: false,
+                splitLine: {
+                    show: false
+                },
+                splitArea: {
+                    show: false
+                }
+            },
+            yAxis: {
+                splitArea: {
+                    show: false
+                }
+            },
+            series: [{
+                type: 'bar',
+                data: data.valueData,
+                // Set `large` for large data amount
+                large: true
+            }]
+        };
+
+        function generateData(count) {
+            var baseValue = Math.random() * 1000;
+            var time = +new Date(2011, 0, 1);
+            var smallBaseValue;
+
+            function next(idx) {
+                smallBaseValue = idx % 30 === 0
+                    ? Math.random() * 700
+                    : (smallBaseValue + Math.random() * 500 - 250);
+                baseValue += Math.random() * 20 - 10;
+                return Math.max(
+                    0,
+                    Math.round(baseValue + smallBaseValue) + 3000
+                );
+            }
+
+            var categoryData = [];
+            var valueData = [];
+
+            for (var i = 0; i < count; i++) {
+                categoryData.push(echarts.format.formatTime('yyyy-MM-dd\nhh:mm:ss', time));
+                valueData.push(next(i).toFixed(2));
+                time += 1000;
+            }
+
+            return {
+                categoryData: categoryData,
+                valueData: valueData
+            };
+        }
+        var myChart = echarts.init(document.getElementById("tab"));
+        myChart.setOption(option);
+        var myChart1 = echarts.init(document.getElementById("tab1"));
+        myChart1.setOption(option1);
+        var myChart2 = echarts.init(document.getElementById("tab-1"));
+        myChart2.setOption(option2);
+        var myChart3 = echarts.init(document.getElementById("tab-2"));
+        myChart3.setOption(option3);
+        var myChart4 = echarts.init(document.getElementById("tab-3"));
+        myChart4.setOption(option3);
+        var myChart5 = echarts.init(document.getElementById("tab2"));
+        myChart5.setOption(option4);
+        var myChart6 = echarts.init(document.getElementById("tab3"));
+        myChart6.setOption(option4);
+        var myChart7 = echarts.init(document.getElementById("tab4"));
+        myChart7.setOption(option2);
+        var myChart8 = echarts.init(document.getElementById("tab5"));
+        myChart8.setOption(option5);
+        
+        window.onresize = function(){
+		    myChart.resize();
+		    myChart1.resize();  
+		    myChart2.resize();  
+		    myChart3.resize();  
+		    myChart4.resize();  
+		    myChart5.resize();
+		    myChart6.resize();  
+		    myChart7.resize();  
+		    myChart8.resize();  
+		    
+  	 }
+        
+    })
+</script>
